@@ -1,0 +1,6 @@
+Start
+Intialize variable sum=0
+Get list of numbers 
+Loop through each number in the list
+For each current Number we see in the list, square the number and add the result to sum
+end 
