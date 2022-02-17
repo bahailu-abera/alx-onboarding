@@ -1,0 +1,12 @@
+start 
+Intialize sum = 0
+Intialize n equal to user input
+IF (n > 0) THEN
+     sum = sum + n
+     go to step 3 
+     
+ELSE 
+    print(sum)
+    
+    end of program
+    
