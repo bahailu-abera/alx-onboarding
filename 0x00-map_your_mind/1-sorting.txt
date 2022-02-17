@@ -1,0 +1,27 @@
+start
+DECLARE INTEGER  A,B,C
+READ INTEGER A,B,C
+ IF(A < B) THEN
+     IF(A < C) THEN
+           IF(B < C) THEN 
+                WRITE A, B,C 
+           ELSE 
+                WRITE A, C, B
+           END IF 
+     ELSE 
+           WRITE C, A, B
+     END IF 
+ELSE 
+     IF (B < C) THEN
+          IF(A < C) THEN
+              WRITE B, A, C
+          ELSE 
+              WRITE B, C, A
+          END IF 
+     ELSE 
+         WRITE C, B , A 
+     END IF 
+END IF 
+
+END OF THE PROGRAM
+           
